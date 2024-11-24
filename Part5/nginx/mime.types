@@ -1,0 +1,11 @@
+types {
+    text/html   html;
+    text/css    css;
+    application/javascript js; # Убедитесь, что эта строка одна
+    application/json json;
+    application/xml xml;
+    image/jpeg   jpeg;
+    image/png    png;
+    image/gif    gif;
+    # Добавьте любые другие необходимые типы здесь
+}
