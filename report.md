@@ -109,14 +109,14 @@ touch nginx.conf
 
 ## Part 6. Базовый **Docker Compose**
 ##### Установ docker-compose
-![](images/part6-1.png)
+![](images/part6-1.JPG)
 ##### Напиши файл *docker-compose.yml*, с помощью которого:
 ##### 1) Подними докер-контейнер из [Части 5](#part-5-инструмент-dockle) _(он должен работать в локальной сети, т. е. не нужно использовать инструкцию **EXPOSE** и мапить порты на локальную машину)_.
 ##### 2) Подними докер-контейнер с **nginx**, который будет проксировать все запросы с 8080 порта на 81 порт первого контейнера.
  - nginx.conf<br>
  ![](images/part6-2.png)
  - docker-compose.yaml<br>
- ![](images/part6-3.png)
+ ![](images/part6-3.JPG)
  - Dockerfile<br>
  ![](images/part6-4.png)
   - entrypoint.sh<br>
