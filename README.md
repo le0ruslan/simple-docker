@@ -1,4 +1,4 @@
-# Simple Docker - README
+# Simple Docker
 
 ## Overview
 
